@@ -2,7 +2,8 @@ const newman = require('newman');
 require('dotenv').config();
  
 newman.run({
-    collection:`https://api.postman.com/collections/13099496-fa7d842f-4c29-4357-b27d-cec6caec700b?access_key=${process.env.PMAT_KEY}`,
+    // collection:`https://api.postman.com/collections/13099496-fa7d842f-4c29-4357-b27d-cec6caec700b?access_key=${process.env.PMAT_KEY}`,
+    collection:require('./collection/dModey.json'),
     reporters: 'htmlextra',
     iterationCount: 1,
     reporter: {
