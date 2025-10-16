@@ -1,4 +1,4 @@
-#Dmoney transaction integration
+## Dmoney transaction integration
 ## Summary in this demo fintech system, we can create agent, customer, merchant etc, roles and they can exchange money. Admin can manage the users.
 
 ###Technical Scope
@@ -20,5 +20,9 @@
 ### Bug report: <Your bug report link>
 
 ### Attachment
+# Postman
+<img width="1352" height="644" alt="image" src="https://github.com/user-attachments/assets/7a584ff4-bb67-4fe5-91ac-7cfe2762f255" />
+
+# Newman
 <img width="554" height="561" alt="image" src="https://github.com/user-attachments/assets/c71e18aa-fed9-47bb-a359-354f8f7f23ba" />
 
